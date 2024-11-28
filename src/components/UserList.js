@@ -1,6 +1,5 @@
-// src/components/UserList.js
 import React, { useEffect, useState } from 'react';
-import { fetchUsers } from '../api/userApi';
+import { fetchUsers } from '../api/UserApi';
 import UserItem from './UserItem';
 
 const UserList = () => {

@@ -1,8 +1,7 @@
-// src/components/UserItem.js
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// 사용자 한 명의 정보를 카드 형태로 표시하는 컴포넌트
+//TODO: 사용자 정보를 카드 형태로 표시하는 컴포넌트
 const UserItem = ({ user }) => {
     return (
         <div className="user-card">
